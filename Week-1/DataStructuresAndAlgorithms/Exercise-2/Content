@@ -1,0 +1,27 @@
+BIG O NOTATION: 
+	Big O notation is a mathematical way to describe the efficiency of an algorithm in terms of:
+
+		Time complexity: How fast it runs as input size grows.
+
+		Space complexity: How much memory it uses.
+
+	It focuses on the worst-case scenario and describes how an algorithm scales with input size n.
+
+BEST, AVERAGE, WORST-CASE SCENARIOS FOR SEARCHING:
+	BEST   : This case will obtain when an elements we are searching was found in the first few steps itself 
+		     in that case the target element was in the start positions in the linear search in the binary searching
+		     it may be middle. 
+	WORST  : This case will obtain when an element was found in the vary last iteration, in that case the target element
+		 	 was in the last in the linear search and in the start and end positions in the binary search.
+	Average: There was some cases in which the element was not fall in either of Best or Worst case.
+
+ANALYSIS: 
+	Time complexity of Linear search - O(N) where N is the size of the array
+	Time complexity of Binary Search - O(N) + O(logN) -> (sorting and searching) , O(logN) -> (searching)
+	Comparison: choosing the linear search would be the better option if the array is unordered in nature 
+				if the data is ordered in nature then choosing the Binary search is the best option. 
+
+SUTABILITY OF ALGORITHM:
+	The best suitable algorithm for this unordered data was linear search because the data on which we perform the
+	Searching was unordered data so instead of sorting the data and then performing searching the better option was
+	linear searching.			

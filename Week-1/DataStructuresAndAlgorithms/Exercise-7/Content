@@ -1,0 +1,23 @@
+RECURSION:
+	Recursion is a paradigm in we solve one problem by solving its subproblem. Combines the solutions of subproblems to solve actual problem.
+
+RECURSION ALGORITHMS:
+	The algorithms that uses Recursion as its paradigm is called as recursive algorithms, and we use the recursive functions(function calling its self) to execute this concept of recursion.
+	There are many types of problems that was solved used recursion some of them are towers of Hanoi, subsets, N - Queens.....
+
+	so, in our problems its given the past data and asked to have the future data. since we don't know the value at that point we try to ask our previous state if that state also don't have the solution until we find some point where there is an answer. we combines the previous answers for our current answer.
+
+		Repetitive calculations based on a previous state.
+	
+		Problems that exhibit overlapping subproblems and optimal substructure (like Fibonacci, factorial, etc.).
+	
+	In forecasting, if future value depends on previous values in a predictable way (like compound interest), recursion is a natural fit.
+
+RECURSIVE FUNCTION IN OUR FINANCIAL FORECASTING:
+	Future Value = Present Value × (1 + Growth Rate)^n
+
+	fv(n) = fv(n - 1) x (1 + r)
+
+WHAT WE HAVE: 
+	Initial Value -> fv(0)
+	Rate -> r
