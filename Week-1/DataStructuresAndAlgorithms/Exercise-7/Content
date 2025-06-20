@@ -1,4 +1,4 @@
-RECURSION:
+UNDERSTAND RECURSION:
 	Recursion is a paradigm in we solve one problem by solving its subproblem. Combines the solutions of subproblems to solve actual problem.
 
 RECURSION ALGORITHMS:
@@ -21,3 +21,8 @@ RECURSIVE FUNCTION IN OUR FINANCIAL FORECASTING:
 WHAT WE HAVE: 
 	Initial Value -> fv(0)
 	Rate -> r
+	
+ANALYSIS:
+	Time Complexity: O(n)
+	We can Optimize the recursive solution to avoid excessive Computation by the technique called memoization in which we will store the result
+	of the subproblem already solved if after at any point if that same problem occured instead of resolving it we can simply use the stored it.
