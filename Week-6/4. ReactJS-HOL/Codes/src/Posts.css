@@ -1,0 +1,14 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  border: 2px solid rgb(68, 145, 158);
+  list-style-type: none;
+  padding: 0;
+}
+
+.post {
+  border-bottom: 1px solid gray;
+}
